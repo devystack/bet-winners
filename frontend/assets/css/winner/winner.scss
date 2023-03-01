@@ -1,0 +1,27 @@
+// @import '../variables/colors.scss';
+
+.link {
+    color: $primary-color;
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+    text-decoration: none;
+    padding: 0;
+  }
+  .link_sm {
+    font-size: 11px;
+  }
+  .link_md {
+    font-size: 14px;
+    .link__icon {
+        width: 24px;
+        height: 24px;
+    }
+  }
+  .link__text {
+    font-size: 14px;
+  }
+  .link__icon {
+    fill: $primary-color;
+    transition: transform .1s ease-in-out,fill .1s ease-in-out;
+  }
